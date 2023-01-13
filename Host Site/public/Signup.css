@@ -1,0 +1,116 @@
+.headingmain {
+    font-size: 1.2em;
+    background-color: rgb(255, 28, 28);
+    padding: 20px;
+}
+
+.container2 {
+
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 20px auto;
+    vertical-align: text-bottom;
+    height: 80vh;
+    /* overflow: scroll; */
+    padding: 10px;
+
+}
+.headingmain a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#loginbtn,
+#signupbtn {
+    /* display: flex; */
+    float: right;
+}
+
+legend {
+    background-color: rgb(255, 28, 28);
+    margin: 0px auto;
+    border-radius: 3em 1em;
+
+    font-size: 2em;
+    padding: 0px 50px !important;
+}
+
+fieldset {
+
+    border-color: black;
+
+    border: 1px solid black;
+    outline-width: 0px;
+}
+form input  {
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+label{
+    font-size: 1.5em;
+}
+form input:focus{
+    outline-width: 0px;
+    border: 1px solid black;
+}
+#rulesCheckbox{
+
+    width: 3%;
+}
+
+form button  {
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Qurries */
+
+
+@media only screen and (max-width: 900px) {
+
+    .container2 {
+        width: 80%;
+    }
+
+    .legend {
+        font-size: 1em;
+        padding: 0px 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .container2 {
+        width: 100%;
+    }
+
+    .legend {
+        font-size: 1em;
+        padding: 0px 10px;
+    }
+
+}

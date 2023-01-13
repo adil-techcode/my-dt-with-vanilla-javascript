@@ -1,0 +1,43 @@
+
+
+.headingmain {
+    font-size: 1.2em;
+    background-color: rgb(255, 28, 28);
+    padding: 20px;
+    
+}
+span{
+    color: rgb(255, 28, 28);
+}
+.headingmain a{
+    text-decoration: none;
+    color: black;
+    
+}
+.autotext{
+
+    width: 100%;
+}
+.section{
+    background-color:aliceblue ;
+}
+.container {
+    padding-top: 50px;
+    display: flex;
+  
+    width: 100%;
+    
+    flex-direction: column;
+    height: 80vh;
+
+
+}
+
+#loginbtn,
+#signupbtn {
+    /* display: flex; */
+    float: right;
+}
+
+
+
